@@ -1,0 +1,15 @@
+<templateSet group="user">
+  <template name="//test" value="import {expect} from 'chai';&#10;import sinon from 'sinon';&#10;import {$NAME$}&#10;&#10;describe('$NAME$', () =&gt; {&#10;    it('$NAME1$', () =&gt; {&#10;        &#10;    })&#10;})" description="Add test sceleton" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//test_comp" value="import React from 'react';&#10;import { expect } from 'chai';&#10;import sinon from 'sinon';&#10;import { shallow } from 'enzyme';&#10;import { $COMP$ } from &#10;&#10;const shallowRender = (props = {}) =&gt; shallow(&lt;$COMP$ {...props} /&gt;);&#10;&#10;describe('&lt;$COMP$/&gt;', () =&gt; {&#10;  it('should render with default props', () =&gt; {&#10;    const wrapper = shallowRender();&#10;  });&#10;});" description="Add component test skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="COMP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

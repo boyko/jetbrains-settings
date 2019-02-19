@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="BraintreePaymentTransaction" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="EpayPaymentTransaction" type="PLAIN_TEXT" />
+      <mapping pattern="readOnlyItem" type="PLAIN_TEXT" />
+      <mapping pattern="UserProfileRatings" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
