@@ -12,12 +12,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="//dline" value="// tslint:disable-next-line&#10;" description="Tslint disable next line" toReformat="false" toShortenFQNames="true">
+  <template name="//dline" value="// tslint:disable-next-line" description="Tslint disable next line" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="//ign" value="// @ts-ignore" description="Tsc ignore next line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//Icss" value="interface Css {&#10;    [k: string]: string&#10;}" description="Skeleton css interface" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
