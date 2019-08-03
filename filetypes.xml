@@ -3,11 +3,6 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="UserProfileRatings" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="EpayPaymentTransaction" type="PLAIN_TEXT" />
-      <mapping pattern="BraintreePaymentTransaction" type="PLAIN_TEXT" />
-      <mapping pattern="readOnlyItem" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
