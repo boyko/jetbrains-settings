@@ -27,8 +27,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="//rtl" value="import React from 'react';&#10;import { render, fireEvent, cleanup } from '@testing-library/react';&#10;import $NAME$ from './$NAME$';&#10;&#10;&#10;const setup = (props = {}) =&gt; {&#10;  return render(&lt;$NAME$ {...props} /&gt;);&#10;};&#10;&#10;afterEach(cleanup);&#10;&#10;describe('&lt;$NAME$/&gt;', () =&gt; {&#10;  it('should render', () =&gt; {&#10;    const { container } = setup();&#10;    expect(container).toMatchSnapshot();&#10;  });&#10;});&#10;" description="React testing library skeleton" toReformat="false" toShortenFQNames="true">
+  <template name="//rtl" value="import React from 'react';&#10;import Mockdate from 'mockdate';&#10;import { render, fireEvent, cleanup } from '@testing-library/react';&#10;import $NAME$ from './$NAME$';&#10;&#10;&#10;const setup = (props = {}) =&gt; {&#10;  return render(&lt;$NAME$ {...props} /&gt;);&#10;};&#10;&#10;afterEach(cleanup);&#10;&#10;describe('&lt;$NAME$/&gt;', () =&gt; {&#10;  it('should render', () =&gt; {&#10;    const { container } = setup();&#10;    expect(container).toMatchSnapshot();&#10;  });&#10;});&#10;" description="React testing library skeleton" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="// mockdate" value="  beforeAll(() =&gt; {&#10;    Mockdate.set(new Date(2018, 2, 15, 12));&#10;  });&#10;  afterAll(() =&gt; {&#10;    Mockdate.reset();&#10;  });&#10;  " description="Add mock date beforeAll and afterAll" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
